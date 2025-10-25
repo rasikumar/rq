@@ -1,0 +1,82 @@
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.michroma-bold {
+    font-family: "Michroma", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* NAVBAR */
+.nav-bar {
+    backdrop-filter: blur(20px);
+}
+
+.bbh-sans-bartle-regular {
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_dots {
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    position: relative;
+}
+
+.nav_dots .nav_dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.nav_dot {
+    background-color: rgb(252, 252, 252);
+    border-radius: 1rem;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+
+.nav_dots .nav_dot:nth-child(1) {
+    transform: translate3d(calc(-150% - 1px), calc(-150% - 1px), 0);
+}
+
+.nav_dots .nav_dot:nth-child(2) {
+    transform: translate3d(calc(50% + 1px), calc(-150% - 1px), 0);
+}
+
+
+.nav_dots .nav_dot:nth-child(3) {
+    transform: translate3d(calc(-150% - 1px), calc(50% + 1px), 0);
+}
+
+.nav_dots .nav_dot:nth-child(4) {
+    transform: translate3d(calc(50% + 1px), calc(50% + 1px), 0);
+}
+
+.icon-img {
+    width: 6%;
+    margin-top: 10px;
+}
