@@ -8,8 +8,6 @@ import RemoveBg from "./component/RemoveBg";
 // import PosyIndPage from "./component/PosyIndPage";
 // import Fruits from "./component/Fruits";
 
-import ScreenAnimation from "./component/ScreenAnimation";
-import StickyCards from "./component/StickyCards";
 
 // function App() {
 //   return (
